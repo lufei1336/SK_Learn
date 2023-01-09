@@ -3,6 +3,11 @@
 ###Shell
 
 ```
+:set shell=/bin/bash
+:shell
+```
+
+```
 postgres@vaccine:~$ sudo -l
 Matching Defaults entries for postgres on vaccine:
     env_keep+="LANG LANGUAGE LINGUAS LC_* _XKB_CHARSET", env_keep+="XAPPLRESDIR XFILESEARCHPATH XUSERFILESEARCHPATH",
