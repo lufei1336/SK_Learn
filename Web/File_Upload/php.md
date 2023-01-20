@@ -16,9 +16,9 @@
 .module
 ```
 
-# Bypass file extension check
+### Bypass file extension check
 ```
 1. Using some uppercase letters: pHp, PhAr ...
 2. Adding a valid extension before: file.png.php, file.png.pHp
 3. Adding special characters at the end
-  *file.php%20
+  -file.php%20
