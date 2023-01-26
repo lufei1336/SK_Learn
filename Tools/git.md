@@ -7,24 +7,6 @@ commit 33a53ef9a207976d5ceceddc41a199558843bf3c (HEAD -> main)
 Author: Developer <developer@ambassador.local>
 Date:   Sun Mar 13 23:47:36 2022 +0000
 
-    tidy config script
-
-commit c982db8eff6f10f8f3a7d802f79f2705e7a21b55
-Author: Developer <developer@ambassador.local>
-Date:   Sun Mar 13 23:44:45 2022 +0000
-
-    config script
-
-commit 8dce6570187fd1dcfb127f51f147cd1ca8dc01c6
-Author: Developer <developer@ambassador.local>
-Date:   Sun Mar 13 22:47:01 2022 +0000
-
-    created project with django CLI
-
-commit 4b8597b167b2fbf8ec35f992224e612bf28d9e51
-Author: Developer <developer@ambassador.local>
-Date:   Sun Mar 13 22:44:11 2022 +0000
-
     .gitignore
     
 $ git show 33a53ef9a207976d5ceceddc41a199558843bf3c
