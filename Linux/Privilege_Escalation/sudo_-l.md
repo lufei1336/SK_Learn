@@ -13,7 +13,7 @@ User wizard may run the following commands on photobomb:
 
 ### checking script command
 ```
-$ cat /opt  cleanup.sh
+$ cat /opt/cleanup.sh
 #!/bin/bash
 . /opt/.bashrc
 cd /home/wizard/photobomb
