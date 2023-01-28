@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Search Users</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/nunito.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.min.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="/admin">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-laugh-wink"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>Shoppy</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <div class="container-fluid">
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4" style="margin: 36px 0px 0px;">
+                        <h3 class="text-dark mb-0">Search for users in Shoppy App</h3>
+                    </div>
+                </div>
+                <div>
+                    <form class="d-none d-sm-inline-block me-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group"><input class="bg-dark form-control border-0 small" type="text" name="username" placeholder="Search for ..."></div>
+                    </form>
+                </div>
+                <% if (typeof info !== 'undefined') { %>
+                    <h2 style="text-align: center; margin-top: 85px;"><%= info %></h2>
+                <% } %>
+                <% if (typeof link !== 'undefined') { %>
+                    <a class="btn btn-primary btn-sm d-none d-sm-inline-block" style="margin-top: 35px; margin-left: 77vh;" role="button" href=<%= link %>><i class="far fa-file fa-sm text-white-50"></i>&nbsp;Download export</a>
+                <% } %>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+</body>
+
+</html>
