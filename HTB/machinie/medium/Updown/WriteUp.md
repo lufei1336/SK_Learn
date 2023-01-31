@@ -1,4 +1,8 @@
 # HTB medium machine Updown Writeup
+
+### Overview
+`.htaccess`, `fileupload`, `zip-phar-bypass`, `proc_open revshell`, `setuid`.
+
 ### Enumeration
 #### nmap
 ```
@@ -148,7 +152,7 @@ $ whoami
 developer
 ```
 ### Prriv root
-```
+```bash
 $ sudo -l
 Matching Defaults entries for developer on localhost:
     env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
